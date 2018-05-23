@@ -25,9 +25,5 @@ function manhattan(a, b) {
     return Math.abs(xa - xb) + Math.abs(ya - yb);
 }
 
-export {
-
-    diagonal,
-    euclidean,
-    manhattan
-};
+// exports current module as functions
+export {diagonal, euclidean, manhattan};
